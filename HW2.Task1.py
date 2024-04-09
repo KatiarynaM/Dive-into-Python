@@ -7,6 +7,7 @@ BASE = 16
 num = int(input('Введите число:  '))
 hex_digits = '0123456789ABCDEF'
 result = ''
+print(hex(num))
 while num > 0:
       remainder = num % BASE
       hex_digit = hex_digits[remainder]
